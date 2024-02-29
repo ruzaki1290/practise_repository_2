@@ -9,7 +9,7 @@
 <body>
     <div class="calculator">
      <h1>Calculator</h1>
-     <p>You can use this app to perform simple ariphmetic functions.</p>
+     
         <input type="text" class="display" id="display" disabled>
         <div class="keys">
             <button onclick="addToDisplay('7')">7</button>
@@ -25,11 +25,13 @@
             <button onclick="addToDisplay('3')">3</button>
             <button onclick="addToDisplay('-')">-</button>
             <button onclick="addToDisplay('0')">0</button>
+            <button onclick="addToDisplay('.')">.</button>
             <button onclick="clearDisplay()">C</button>
-            <button onclick="calculate()">=</button>
             <button onclick="addToDisplay('+')">+</button>
+            <button onclick="calculate()">=</button>
         </div>
     </div>
     <script src="script.js"></script>
+
 </body>
 </html>
