@@ -1,7 +1,8 @@
-.calcualtor {
-    width: 200px;
+
+.calculator {
+    width: 250px; /* Make the calculator narrower */
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px; /* Reduce padding */
     border: 1px solid #ccc;
     border-radius: 5px;
     text-align: center;
@@ -9,14 +10,20 @@
 
 #display {
     width: 100%;
-    margin-bottom: 10px;
-    padding: 5px;
-    font-size: 20px;
+    margin-bottom: 5px; /* Reduce margin */
+    padding: 3px; /* Reduce padding */
+    font-size: 16px; /* Decrease font size */
+}
+
+.keys {
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+    justify-content: center; /* Horizontally center buttons */
 }
 
 .keys button {
-    width: 45px;
-    height: 45px;
-    margin: 5px;
-    font-size: 20px;
+    width: 50px; /* Decrease button width */
+    height: 50px; /* Decrease button height */
+    margin: 3px; /* Decrease margin */
+    font-size: 14px; /* Decrease font size */
 }
